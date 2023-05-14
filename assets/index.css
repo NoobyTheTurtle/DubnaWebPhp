@@ -1,0 +1,187 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Стартовая страница */
+
+.start-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.start-page h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.start-page p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* Хедер */
+.navbar {
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 10px;
+    align-self: center;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+.navbar li a:hover {
+    color: #555;
+}
+
+.navbar span {
+    font-weight: bold;
+}
+
+.logout-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #e60000;
+}
+
+/* Футер */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+/* Форма */
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="email"],
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.errors {
+    color: #ff0000;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.errors li {
+    margin-bottom: 5px;
+}
+
+/* Страница со списком объявлений */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.list {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.item {
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 0 5px;
+}
+
+.item p {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.item span {
+    padding: 0 10px;
+    align-self: end;
+}
